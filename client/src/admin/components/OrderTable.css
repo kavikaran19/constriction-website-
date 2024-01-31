@@ -1,0 +1,56 @@
+.john-table-wrapper{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5rem;
+margin-left: 5rem;
+margin-bottom: 2rem;
+  
+
+}
+.john-table{
+    
+    display: block;
+    overflow: scroll;
+    table-layout: auto;
+    box-shadow: 0 2px 3px #CCC;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100rem;
+ 
+
+
+}
+.john-table thead{
+    background-color: #263043;
+    color: #fff;
+    
+    
+    /* width: 100%; */
+}
+.john-table th,.john-table td{
+    padding: 1.8rem;
+   width: 100%;
+}
+.john-table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.john-table tbody tr:hover{
+    background-color: #eee;
+}
+/* .actions{
+    display: flex;
+    justify-content: space-around;
+}
+.actions svg{
+    cursor: pointer;
+}
+.delete-btn{
+    color: var(--red);
+}
+.edit-btn{
+    color: rgb(0, 0, 0)
+} */
